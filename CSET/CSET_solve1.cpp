@@ -1,4 +1,3 @@
-
 #include <iostream>   // Para cin y cout
 #include <vector>     // Para usar vectores dinámicos
 #include <string>     // Para manipulación de texto
@@ -8,30 +7,37 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#define ll long long int
+
+
+
 using namespace std;
 
 
-bool solve2(vector<int>& a, vector<int>& b) {
+/*
 
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-
-    return a == b;
-}
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 
 
-bool checkEqual(vector<int>& a, vector<int>& b) {
-    auto n =a.size();
+    ll N;
 
-    unordered_map<int,int> mp;
-    unordered_map<int,int> mps;
+    cin>>N;
 
-    for (int i = 0; i < n; i++) {
-        mp[a[i]]++;
-        mps[b[i]]++;
+    while (N != 1) {
+        cout << N << " ";
+
+        if (N%2!=0)
+            N = N * 3 + 1;
+
+        else
+            N /= 2;
     }
+    cout << 1;
 
 
-    return mp == mps;
+
+    return 0;
 }
-
+*/

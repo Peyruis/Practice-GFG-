@@ -8,30 +8,35 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#define ll long long int
+
+
+
 using namespace std;
 
 
-bool solve2(vector<int>& a, vector<int>& b) {
 
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-
-    return a == b;
-}
-
-
-bool checkEqual(vector<int>& a, vector<int>& b) {
-    auto n =a.size();
-
-    unordered_map<int,int> mp;
-    unordered_map<int,int> mps;
-
-    for (int i = 0; i < n; i++) {
-        mp[a[i]]++;
-        mps[b[i]]++;
-    }
-
-
-    return mp == mps;
-}
+//
+// int main() {
+//     int n;
+//     cin >> n;
+//
+//
+//     if (n == 0) {
+//         cout<<0;
+//     } else {
+//
+//
+//         ll result = n*(n+1);
+//         ll total = result/2;
+//
+//
+//         cout<<total;
+//     }
+//
+//
+//
+//     return 0;
+// }
+//
 
