@@ -47,10 +47,14 @@ long long solvedMath5(long long n) {
     return sum;
 }
 
-
+//
 // int main() {
 //     int n = 4;
-//
+//     // 1 2 3 4
+//     // 1 = 1;
+//     // 2 = 1 + 2;
+//     // 3 = 1 + 3;
+//     // 4 = 1  + 2 + 4
 //     ll sum = 1;
 //     int sumDiv = 0;
 //
@@ -64,6 +68,7 @@ long long solvedMath5(long long n) {
 //         sum += sumDiv;
 //     }
 //
+//     cout<<sum;
 //
 //     return 0;
 // }

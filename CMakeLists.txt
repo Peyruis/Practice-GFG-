@@ -20,4 +20,15 @@ add_executable(GFG_Exercises
         GFG_MATHS/Math_solve4.cpp
         GFG_MATHS/Math_solve5.cpp
         GFG_MATHS/Math_solve6.cpp
+        Concept/Graph.cpp
+        GFG_MATHS/Math_solve8.cpp
+        GFG_MATHS/Math_solve9.cpp
+        GFG_MATHS/Math_solve10.cpp
+        CSET/CSES_solve4.cpp
+        CSET/CSES_solve5.cpp
+        CSET/CSES_solve6.cpp
+        CSET/CSES_solve7.cpp
+        AT_CODER/ATC_solve1.cpp
+        CSET/CSES_solve8.cpp
+        GFG_MATHS/Math_Solve11.cpp
 )

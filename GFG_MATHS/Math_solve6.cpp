@@ -29,20 +29,20 @@ int inSequence(int a, int b, int c) {
     }
 }
 
-
-int main() {
-
-    int a,b,c;
-
-    a = 17, b=49, c = 8;
-
-
-    if ((b - a) % c == 0 && (b - a) / c >= 0) {
-
-        cout<<"success";
-    } else {
-        cout<<"Failed";
-    }
-
-    return 0;
-}
+//
+// int main() {
+//
+//     int a,b,c;
+//
+//     a = 17, b=49, c = 8;
+//
+//
+//     if ((b - a) % c == 0 && (b - a) / c >= 0) {
+//
+//         cout<<"success";
+//     } else {
+//         cout<<"Failed";
+//     }
+//
+//     return 0;
+// }
